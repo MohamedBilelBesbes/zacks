@@ -4,6 +4,19 @@ import time
 import argparse
 
 
+def clean_ticker(ticker: str) -> str:
+    """
+    Remove suffixes such as -CT from tickers.
+    Example: NVDA-CT -> NVDA
+    """
+    ticker = str(ticker).strip().upper()
+
+    if "-" in ticker:
+        ticker = ticker.split("-")[0]
+
+    return ticker
+
+
 def get_zacks_rank(ticker):
     url = f"https://quote-feed.zacks.com/index?t={ticker}"
 
@@ -12,11 +25,12 @@ def get_zacks_rank(ticker):
         data = r.json()
 
         if ticker in data:
-            rank = data[ticker]["zacks_rank"]
-            rank_text = data[ticker]["zacks_rank_text"]
-            name = data[ticker]["name"]
+            rank = data[ticker].get("zacks_rank")
+            rank_text = data[ticker].get("zacks_rank_text")
+            name = data[ticker].get("name")
 
             return rank, rank_text, name
+
     except Exception:
         pass
 
@@ -24,40 +38,13 @@ def get_zacks_rank(ticker):
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Extract stocks with Zacks Rank 1 from a CSV file"
-    )
+    parser = argparse.ArgumentParser(description="Fetch Zacks ranks for stocks")
 
-    parser.add_argument(
-        "--input_csv",
-        required=True,
-        help="Path to input CSV file"
-    )
-
-    parser.add_argument(
-        "--output_csv",
-        required=True,
-        help="Path to output CSV file"
-    )
-
-    parser.add_argument(
-        "--column",
-        default="stock",
-        help="Column name containing stock tickers (default: stock)"
-    )
-
-    parser.add_argument(
-        "--delay",
-        type=float,
-        default=0.4,
-        help="Delay between API calls in seconds (default: 0.4)"
-    )
-
-    parser.add_argument(
-        "--verbose",
-        action="store_true",
-        help="Print progress information"
-    )
+    parser.add_argument("--input_csv", required=True)
+    parser.add_argument("--output_csv", required=True)
+    parser.add_argument("--column", default="stock")
+    parser.add_argument("--delay", type=float, default=0.4)
+    parser.add_argument("--verbose", action="store_true")
 
     args = parser.parse_args()
 
@@ -66,29 +53,39 @@ def main():
     if args.column not in df.columns:
         raise ValueError(f"Column '{args.column}' not found in CSV")
 
-    rank1 = []
+    rows = []
 
-    for ticker in df[args.column]:
-        ticker = str(ticker).strip()
+    for raw_ticker in df[args.column]:
+        cleaned = clean_ticker(raw_ticker)
 
-        rank, rank_text, name = get_zacks_rank(ticker)
+        rank, rank_text, name = get_zacks_rank(cleaned)
 
         if args.verbose:
-            print(f"{ticker} -> {rank}")
+            print(f"{raw_ticker} -> {cleaned} -> {rank}")
 
-        if rank == 1:
-            rank1.append({
-                "ticker": ticker,
-                "name": name,
-                "rank": rank_text
-            })
+        rows.append({
+            "original_ticker": raw_ticker,
+            "ticker": cleaned,
+            "name": name,
+            "rank": rank,
+            "rank_text": rank_text
+        })
 
         time.sleep(args.delay)
 
-    result = pd.DataFrame(rank1)
+    result = pd.DataFrame(rows)
+
+    # Convert rank to numeric for sorting
+    result["rank_numeric"] = pd.to_numeric(result["rank"], errors="coerce")
+
+    # Stocks without rank go to bottom
+    result = result.sort_values(by="rank_numeric", na_position="last")
+
+    result.drop(columns=["rank_numeric"], inplace=True)
+
     result.to_csv(args.output_csv, index=False)
 
-    print(f"\nSaved {len(result)} Rank-1 stocks to {args.output_csv}")
+    print(f"\nSaved results to {args.output_csv}")
 
 
 if __name__ == "__main__":

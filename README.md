@@ -1,6 +1,6 @@
-# Zacks Rank 1 Stock Extractor
+# Zacks Rank Stock Extractor
 
-This tool reads a CSV file containing stock tickers and extracts the ones that have a **Zacks Rank of 1 (Strong Buy)** using the public Zacks quote feed.
+This tool reads a CSV file containing stock tickers and extracts the ones that have a **a Zacks Rank** using the public Zacks quote feed. The stocks are sorted by rank in the output CSV file.
 
 The filtered stocks are saved into a new CSV file.
 
