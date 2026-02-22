@@ -1,0 +1,200 @@
+original_ticker,ticker,name,rank,rank_text
+CLS-CT,CLS,"Celestica, Inc.",1,Strong Buy
+CRI-CV,CRI,"Carter's, Inc.",1,Strong Buy
+AG-CT,AG,First Majestic Silver Corp.,1,Strong Buy
+WPM-CT,WPM,Wheaton Precious Metals Corp.,1,Strong Buy
+OR-CT,OR,OR Royalties Inc.,1,Strong Buy
+NGD-CT,NGD,New Gold Inc.,1,Strong Buy
+NEO-CT,NEO,"NeoGenomics, Inc.",2,Buy
+FLT-CV,FLT,"FleetCor Technologies, Inc.",2,Buy
+MTA-CV,MTA,Metalla Royalty & Streaming Ltd.,2,Buy
+TI-CT,TI,Telecom Italia S.P.A.,2,Buy
+MUX-CT,MUX,McEwen Inc.,2,Buy
+GRID-CT,GRID,First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF,2,Buy
+ONE-CV,ONE,OneSmart International Education Group Limited,2,Buy
+ET-CT,ET,Energy Transfer LP,3,Hold
+SGML-CV,SGML,Sigma Lithium Corporation,3,Hold
+EU-CV,EU,enCore Energy Corp.,3,Hold
+SCZ-CV,SCZ,iShares MSCI EAFE Small-Cap ETF,3,Hold
+CJ-CT,CJ,"C&J Energy Services, Inc.",3,Hold
+ALK-CT,ALK,"Alaska Air Group, Inc.",3,Hold
+EXE-CT,EXE,Expand Energy Corporation,3,Hold
+ITR-CV,ITR,SPDR Bloomberg Barclays Intermediate Term Corporate Bond ETF,3,Hold
+AEM-CT,AEM,Agnico Eagle Mines Limited,3,Hold
+GBT-CT,GBT,"Global Blood Therapeutics, Inc.",3,Hold
+TWC-CT,TWC,TIME WARNER CAB,3,Hold
+ELVA-CT,ELVA,Electrovaya Inc.,3,Hold
+ARE-CT,ARE,"Alexandria Real Estate Equities, Inc.",3,Hold
+TMQ-CT,TMQ,Trilogy Metals Inc.,3,Hold
+SM-CV,SM,SM Energy Company,3,Hold
+HME-CV,HME,HOME PPTYS INC,3,Hold
+VOXR-CT,VOXR,Vox Royalty Corp.,3,Hold
+DGX-CV,DGX,Quest Diagnostics Incorporated,3,Hold
+GEO-CT,GEO,Geo Group Inc (The),3,Hold
+AGX-CV,AGX,"Argan, Inc.",3,Hold
+TCS-CT,TCS,Container Store (The),3,Hold
+HHH-CV,HHH,Howard Hughes Holdings Inc.,3,Hold
+DCBO-CT,DCBO,Docebo Inc.,3,Hold
+BITF-CT,BITF,Bitfarms Ltd.,3,Hold
+CSU-CT,CSU,Capital Senior Living Corporation,3,Hold
+CP-CT,CP,Canadian Pacific Kansas City Limited,3,Hold
+AMD-CT,AMD,"Advanced Micro Devices, Inc.",3,Hold
+IMO-CT,IMO,Imperial Oil Limited,3,Hold
+CCO-CT,CCO,"Clear Channel Outdoor Holdings, Inc.",3,Hold
+SAP-CT,SAP,SAP SE,3,Hold
+TOI-CV,TOI,"The Oncology Institute, Inc.",3,Hold
+FSV-CT,FSV,FirstService Corporation,3,Hold
+AGI-CT,AGI,Alamos Gold Inc.,3,Hold
+SSRM-CT,SSRM,Silver Standard Resources Inc.,3,Hold
+TFPM-CT,TFPM,Triple Flag Precious Metals Corp.,3,Hold
+HBM-CT,HBM,HudBay Minerals Inc,3,Hold
+RARE-CV,RARE,Ultragenyx Pharmaceutical Inc.,3,Hold
+PRU-CT,PRU,"Prudential Financial, Inc.",3,Hold
+IE-CT,IE,Ivanhoe Electric Inc.,3,Hold
+TXG-CT,TXG,10x Genomics,3,Hold
+ARIS-CT,ARIS,Aris Mining Corporation,3,Hold
+SES-CT,SES,SES AI Corporation,3,Hold
+SVM-CT,SVM,Silvercorp Metals Inc.,3,Hold
+BB-CT,BB,BlackBerry Limited,3,Hold
+WFG-CT,WFG,West Fraser Timber Co. Ltd.,3,Hold
+ATH-CT,ATH,Athene Holding Ltd.,3,Hold
+E-CT,E,Eni SpA,4,Sell
+III-CT,III,"Information Services Group, Inc.",4,Sell
+WCN-CT,WCN,"Waste Connections, Inc.",4,Sell
+ARG-CT,ARG,AIRGAS INC,4,Sell
+CS-CT,CS,Credit Suisse Group,4,Sell
+HUT-CT,HUT,Hut 8 Corp.,4,Sell
+ECOR-CT,ECOR,"electroCore, Inc.",4,Sell
+GIL-CT,GIL,"Gildan Activewear, Inc.",4,Sell
+TPL-CV,TPL,Texas Pacific Land Corporation,4,Sell
+EDV-CT,EDV,Vanguard Extended Duration Treasury ETF,5,Strong Sell
+CMG-CT,CMG,"Chipotle Mexican Grill, Inc.",5,Strong Sell
+CNR-CT,CNR,"Core Natural Resources, Inc.",5,Strong Sell
+CVE-CT,CVE,Cenovus Energy Inc,5,Strong Sell
+DOL-CT,DOL,WisdomTree True Developed International Fund,,
+K-CT,K,,,
+WSP-CT,WSP,,,
+GIB.A-CT,GIB.A,,,
+LUG-CT,LUG,,,
+CCL.A-CT,CCL.A,,,
+TIH-CT,TIH,,,
+ATRL-CT,ATRL,,,
+CCL.B-CT,CCL.B,,,
+ATZ-CT,ATZ,,,
+DSG-CT,DSG,,,
+LMN-CV,LMN,,,
+IMG-CT,IMG,CIMG Inc.,,
+FTT-CT,FTT,,,
+BTO-CT,BTO,John Hancock Financial Opportunities Fund,,
+ARTG-CV,ARTG,,,
+ELD-CT,ELD,WisdomTree Emerging Markets Local Debt ETF,,
+SCR-CT,SCR,,,
+GRGD-CT,GRGD,,,
+OGC-CT,OGC,,,
+PSK-CT,PSK,State Street SPDR ICE Preferred Securities ETF,,
+WCP-CT,WCP,,,
+KXS-CT,KXS,,,
+OLA-CT,OLA,,,
+POU-CT,POU,,,
+TPZ-CT,TPZ,Tortoise Electrification Infrastrctr ETF,,
+PDN-CT,PDN,Invesco RAFI Developed Markets ex-U.S. Small-Mid ETF,,
+FVI-CT,FVI,,,
+TVK-CT,TVK,,,
+WDO-CT,WDO,,,
+TVE-CT,TVE,,,
+IPCO-CT,IPCO,,,
+MAI-CV,MAI,,,
+WGX-CT,WGX,,,
+RUS-CT,RUS,,,
+FRU-CT,FRU,,,
+BDGI-CT,BDGI,,,
+KNT-CT,KNT,,,
+CEU-CT,CEU,,,
+HWX-CT,HWX,,,
+LNF-CT,LNF,,,
+ASE-CV,ASE,,,
+SIS-CT,SIS,,,
+PXT-CT,PXT,,,
+USA-CT,USA,Liberty All-Star Equity Fund,,
+PNG-CV,PNG,,,
+APM-CT,APM,Aptorum Group Limited,,
+ORC.A-CV,ORC.A,,,
+ENGH-CT,ENGH,,,
+SDE-CT,SDE,,,
+MDI-CT,MDI,,,
+BDI-CT,BDI,,,
+ORE-CT,ORE,,,
+THX-CV,THX,,,
+VHI-CT,VHI,"Valhi, Inc.",,
+MKO-CV,MKO,,,
+BLN-CT,BLN,,,
+GUD-CT,GUD,,,
+KSI-CT,KSI,,,
+ZDC-CV,ZDC,,,
+KITS-CT,KITS,,,
+ANRG-CT,ANRG,,,
+LUCA-CV,LUCA,,,
+TBL-CT,TBL,,,
+CPH-CT,CPH,,,
+AIDX-CT,AIDX,20 20 BIOLABS,,
+SBI-CT,SBI,Western Asset Intermediate Muni Fund Inc,,
+MXG-CT,MXG,,,
+FRX-CT,FRX,,,
+PNPN-CV,PNPN,,,
+PNE-CT,PNE,,,
+ELO-CT,ELO,,,
+TRX-CT,TRX,TRX Gold Corporation,,
+ELE-CV,ELE,,,
+STC-CT,STC,Stewart Information Services Corporation,,
+NEXG-CV,NEXG,,,
+CDPR-CV,CDPR,,,
+SFR-CV,SFR,Colony Starwood Homes,,
+GSI-CV,GSI,GENERAL STEEL,,
+HSTR-CV,HSTR,,,
+NIM-CV,NIM,Nuveen Select Maturities Municipal Fund,,
+VCM-CT,VCM,,,
+DBO-CT,DBO,Invesco DB Oil ETF,,
+TSK-CT,TSK,,,
+IMP-CT,IMP,,,
+BOIL-CT,BOIL,ProShares Ultra Bloomberg Natural Gas,,
+DRX-CT,DRX,,,
+PPX-CV,PPX,,,
+PSD-CT,PSD,,,
+BMM-CV,BMM,,,
+FTG-CT,FTG,,,
+GURU-CT,GURU,Global X Guru Index ETF,,
+SPRQ-CV,SPRQ,,,
+EDT-CT,EDT,,,
+SSV-CV,SSV,,,
+HAI-CT,HAI,,,
+GG-CV,GG,Goldcorp Inc.,,
+EMPR-CV,EMPR,EMPIRE PETROLM,,
+GDL-CT,GDL,GDL Fund,,
+BILD-CV,BILD,Nomura Global Listed Infrastructure ETF,,
+ARGH-CV,ARGH,,,
+IPT-CV,IPT,,,
+AUUA-CV,AUUA,,,
+KPT-CT,KPT,,,
+GLB-CV,GLB,,,
+MHUB-CV,MHUB,,,
+BOGO-CV,BOGO,,,
+XBOT-CV,XBOT,,,
+XTRA-CT,XTRA,,,
+NOAL-CV,NOAL,,,
+GSVR-CV,GSVR,,,
+AXL-CV,AXL,,,
+OCO-CV,OCO,,,
+BQE-CV,BQE,,,
+DYA-CT,DYA,,,
+EQ-CV,EQ,"Equillium, Inc.",,
+LRA-CV,LRA,,,
+IBAT-CV,IBAT,IShares Energy Storage & Materials ETF,,
+LCX-CV,LCX,,,
+VIPR-CV,VIPR,,,
+MNLX-CV,MNLX,,,
+PLSR-CV,PLSR,,,
+GRSL-CV,GRSL,,,
+CEMX-CT,CEMX,,,
+VEIN-CV,VEIN,,,
+YGT-CV,YGT,,,
+OYL-CV,OYL,,,

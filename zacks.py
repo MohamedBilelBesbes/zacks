@@ -16,6 +16,29 @@ def clean_ticker(ticker: str) -> str:
 
     return ticker
 
+def load_stock_csv(path):
+    rows = []
+
+    with open(path, "r", encoding="utf-8") as f:
+        header = next(f)
+
+        for line in f:
+            line = line.strip()
+
+            if not line:
+                continue
+
+            parts = line.split(",", 1)  # split only on first comma
+
+            ticker = parts[0].strip()
+            name = parts[1].strip() if len(parts) > 1 else ""
+
+            rows.append({
+                "Ticker": ticker,
+                "Name": name
+            })
+
+    return pd.DataFrame(rows)
 
 def get_zacks_rank(ticker):
     url = f"https://quote-feed.zacks.com/index?t={ticker}"
@@ -48,7 +71,7 @@ def main():
 
     args = parser.parse_args()
 
-    df = pd.read_csv(args.input_csv)
+    df = load_stock_csv(args.input_csv)
 
     if args.column not in df.columns:
         raise ValueError(f"Column '{args.column}' not found in CSV")
