@@ -39,7 +39,7 @@ TSLA
 
 ```
 python zacks.py --input_csv stocks.csv --output_csv rank1_stocks.csv
-
+```
 ---
 
 ## Arguments
