@@ -1,25 +1,25 @@
 original_ticker,ticker,name,rank,rank_text
 CLS-CT,CLS,"Celestica, Inc.",1,Strong Buy
-CRI-CV,CRI,"Carter's, Inc.",1,Strong Buy
 AG-CT,AG,First Majestic Silver Corp.,1,Strong Buy
-WPM-CT,WPM,Wheaton Precious Metals Corp.,1,Strong Buy
 OR-CT,OR,OR Royalties Inc.,1,Strong Buy
+WPM-CT,WPM,Wheaton Precious Metals Corp.,1,Strong Buy
 NGD-CT,NGD,New Gold Inc.,1,Strong Buy
-NEO-CT,NEO,"NeoGenomics, Inc.",2,Buy
 FLT-CV,FLT,"FleetCor Technologies, Inc.",2,Buy
 MTA-CV,MTA,Metalla Royalty & Streaming Ltd.,2,Buy
 TI-CT,TI,Telecom Italia S.P.A.,2,Buy
-MUX-CT,MUX,McEwen Inc.,2,Buy
 GRID-CT,GRID,First Trust NASDAQ Clean Edge Smart Grid Infrastructure ETF,2,Buy
+MUX-CT,MUX,McEwen Inc.,2,Buy
 ONE-CV,ONE,OneSmart International Education Group Limited,2,Buy
+CRI-CV,CRI,"Carter's, Inc.",2,Buy
+ITR-CV,ITR,SPDR Bloomberg Barclays Intermediate Term Corporate Bond ETF,3,Hold
 ET-CT,ET,Energy Transfer LP,3,Hold
-SGML-CV,SGML,Sigma Lithium Corporation,3,Hold
-EU-CV,EU,enCore Energy Corp.,3,Hold
 SCZ-CV,SCZ,iShares MSCI EAFE Small-Cap ETF,3,Hold
 CJ-CT,CJ,"C&J Energy Services, Inc.",3,Hold
-ALK-CT,ALK,"Alaska Air Group, Inc.",3,Hold
+EU-CV,EU,enCore Energy Corp.,3,Hold
 EXE-CT,EXE,Expand Energy Corporation,3,Hold
-ITR-CV,ITR,SPDR Bloomberg Barclays Intermediate Term Corporate Bond ETF,3,Hold
+NEO-CT,NEO,"NeoGenomics, Inc.",3,Hold
+ALK-CT,ALK,"Alaska Air Group, Inc.",3,Hold
+SGML-CV,SGML,Sigma Lithium Corporation,3,Hold
 AEM-CT,AEM,Agnico Eagle Mines Limited,3,Hold
 GBT-CT,GBT,"Global Blood Therapeutics, Inc.",3,Hold
 TWC-CT,TWC,TIME WARNER CAB,3,Hold
@@ -50,24 +50,24 @@ TFPM-CT,TFPM,Triple Flag Precious Metals Corp.,3,Hold
 HBM-CT,HBM,HudBay Minerals Inc,3,Hold
 RARE-CV,RARE,Ultragenyx Pharmaceutical Inc.,3,Hold
 PRU-CT,PRU,"Prudential Financial, Inc.",3,Hold
-IE-CT,IE,Ivanhoe Electric Inc.,3,Hold
-TXG-CT,TXG,10x Genomics,3,Hold
 ARIS-CT,ARIS,Aris Mining Corporation,3,Hold
+ATH-CT,ATH,Athene Holding Ltd.,3,Hold
+WFG-CT,WFG,West Fraser Timber Co. Ltd.,3,Hold
+BB-CT,BB,BlackBerry Limited,3,Hold
 SES-CT,SES,SES AI Corporation,3,Hold
 SVM-CT,SVM,Silvercorp Metals Inc.,3,Hold
-BB-CT,BB,BlackBerry Limited,3,Hold
-WFG-CT,WFG,West Fraser Timber Co. Ltd.,3,Hold
-ATH-CT,ATH,Athene Holding Ltd.,3,Hold
-E-CT,E,Eni SpA,4,Sell
-III-CT,III,"Information Services Group, Inc.",4,Sell
-WCN-CT,WCN,"Waste Connections, Inc.",4,Sell
-ARG-CT,ARG,AIRGAS INC,4,Sell
+TXG-CT,TXG,10x Genomics,3,Hold
+IE-CT,IE,Ivanhoe Electric Inc.,3,Hold
+TPL-CV,TPL,Texas Pacific Land Corporation,4,Sell
 CS-CT,CS,Credit Suisse Group,4,Sell
 HUT-CT,HUT,Hut 8 Corp.,4,Sell
 ECOR-CT,ECOR,"electroCore, Inc.",4,Sell
-GIL-CT,GIL,"Gildan Activewear, Inc.",4,Sell
-TPL-CV,TPL,Texas Pacific Land Corporation,4,Sell
+WCN-CT,WCN,"Waste Connections, Inc.",4,Sell
+III-CT,III,"Information Services Group, Inc.",4,Sell
+E-CT,E,Eni SpA,4,Sell
+ARG-CT,ARG,AIRGAS INC,4,Sell
 EDV-CT,EDV,Vanguard Extended Duration Treasury ETF,5,Strong Sell
+GIL-CT,GIL,"Gildan Activewear, Inc.",5,Strong Sell
 CMG-CT,CMG,"Chipotle Mexican Grill, Inc.",5,Strong Sell
 CNR-CT,CNR,"Core Natural Resources, Inc.",5,Strong Sell
 CVE-CT,CVE,Cenovus Energy Inc,5,Strong Sell
